@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dd"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="FRagment.UploadFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details of students"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        android:textColor="@color/black"
+        android:id="@+id/etname"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:layout_marginRight="70dp"
+        android:id="@+id/etage"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:id="@+id/rgbtn"
+        android:layout_marginLeft="70dp">rte
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/rbmale"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/rbfemale"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/rbothers"
+            />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etadd"
+        android:hint="Address"
+        android:textColor="@color/black"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:id="@+id/btnsubmit"
+        android:backgroundTint="#045CA3"
+        android:layout_marginLeft="70dp"
+        android:text="Submit"
+        />
+
+</LinearLayout>
